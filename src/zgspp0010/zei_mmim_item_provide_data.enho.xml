@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENHO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOOL>BADI_IMPL</TOOL>
+   <SHORTTEXT>자재 문서에서 품목 데이터 변경</SHORTTEXT>
+   <SPOT_NAME>MMIM_CLOUD_BADI</SPOT_NAME>
+   <IMPL>
+    <ENH_BADI_IMPL_DATA>
+     <SPOT_NAME>MMIM_CLOUD_BADI</SPOT_NAME>
+     <BADI_NAME>MMIM_ITEM_PROVIDE_DATA</BADI_NAME>
+     <IMPL_NAME>ZEI_MMIM_ITEM_PROVIDE_DATA</IMPL_NAME>
+     <IMPL_CLASS>ZCL_BADI_ITEM_PROVIDE_DATA</IMPL_CLASS>
+     <ACTIVE>X</ACTIVE>
+    </ENH_BADI_IMPL_DATA>
+   </IMPL>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,28 @@
+managed implementation in class zbp_i_batchcounting unique;
+strict ( 2 );
+
+define behavior for ZI_BATCHCOUNTING //alias <alias_name>
+persistent table ztgspp0010
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  field ( readonly ) Id;
+  field ( numbering : managed ) Id;
+
+  mapping for ztgspp0010
+    {
+      Id              = id;
+      CreatedAt       = created_at;
+      Material        = material;
+      Manufacturedate = manufacturedate;
+      BatchCount      = batch_count;
+      CreatedBy       = created_by;
+      LastChangedBy   = last_changed_by;
+      LastChangedAt   = last_changed_at;
+    }
+
+}
